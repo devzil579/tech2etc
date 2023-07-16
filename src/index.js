@@ -1,6 +1,6 @@
 import React, {StrictMode} from 'react';
 import ReactDOM, {createRoot} from 'react-dom/client';
-
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 
 
@@ -8,9 +8,9 @@ const rootElement = document.getElementById('root')
 const root = createRoot(rootElement)
 
 root.render(
-  <StrictMode>
+  <BrowserRouter>
     <App />
-  </StrictMode>
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
