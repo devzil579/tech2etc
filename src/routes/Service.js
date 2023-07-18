@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
-
+import Trip from '../components/Trip';
+import Footer from '../components/Footer';
 function Service(){
     return (
         <>
@@ -14,6 +15,8 @@ function Service(){
         url='/'
         btnClass='show'
         />
+         <Trip/>
+         <Footer/>
         </>
     )
 }
